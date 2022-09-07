@@ -1,5 +1,6 @@
 # rsschool-cv
 
 <!-- # CV -->
+https://VerdeVelena.github.io/rsschool-cv/
 
-[ _Elena Verde-Casian_](https://VerdeVelena.github.io/rsschool-cv/cv)
+
