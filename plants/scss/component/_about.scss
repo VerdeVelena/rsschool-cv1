@@ -1,0 +1,18 @@
+// section 2 about
+.about {
+	padding: 9.3rem 0 9.4rem 0;
+}
+.about__content {
+	width: 60.5rem;
+
+	& .heading__about {
+		letter-spacing: 0.1rem;
+		margin-bottom: 4rem;
+	}
+	& .text__about {
+		margin-bottom: 15.5rem;
+	}
+}
+.about__img {
+	width: 46.4rem;
+}

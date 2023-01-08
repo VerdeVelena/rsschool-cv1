@@ -1,0 +1,34 @@
+// footer
+.footer__wrapper {
+	padding: 4rem 0;
+	display: flex;
+	// margin: auto;
+}
+.rolling_github {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	& .a_git {
+		text-decoration: none;
+		color: $color-dark;
+	}
+}
+.rolling {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	& .a_rolling {
+		text-decoration: none;
+		color: $color-dark;
+	}
+}
+
+.social-list_link {
+	list-style: none;
+	& li {
+		margin-right: 2rem;
+	}
+	& .social_media {
+		width: 3.2rem;
+	}
+}

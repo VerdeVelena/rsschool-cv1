@@ -1,0 +1,55 @@
+// section 4 prices
+.price__wrapper {
+	padding: 4rem 0 12.9rem 0;
+}
+
+.div__prices {
+	width: 33.2rem;
+	& .heading_prices {
+		margin-top: 0;
+		margin-bottom: 6rem;
+	}
+}
+.prices-accourdion {
+	width: 33.2rem;
+	border: 0.1rem solid #e3e1d5;
+	border-radius: 2rem;
+	& .ul_accordion {
+		margin: 0 auto;
+		padding: 3.4rem 0 0.2rem 0;
+		width: calc(100% - 8.2rem);
+	}
+	& .tipe-price {
+		list-style: none;
+		margin-bottom: 3.2rem;
+	}
+	& .accordion {
+		width: calc(100% - 8rem);
+		padding: 1.6rem 4rem 1.6rem 4rem;
+		display: flex;
+		align-items: center;
+		border-radius: 5rem;
+		background: $color-background;
+	}
+	& .accordion summary {
+		list-style: none;
+	}
+}
+.div__gardeners {
+	width: 45.2rem;
+	display: flex;
+	justify-content: start;
+	& .heading_gardener {
+		text-align: right;
+		margin-top: 0;
+		margin-bottom: 3.8rem;
+	}
+	& .contact_btn {
+		margin-left: auto;
+		margin-bottom: 3.9rem;
+	}
+	& .mini-ico_lives {
+		width: 15.2rem;
+		margin-left: auto;
+	}
+}

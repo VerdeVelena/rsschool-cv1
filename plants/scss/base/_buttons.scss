@@ -1,0 +1,49 @@
+.welcome_btn {
+	width: 15.8rem;
+	height: 4.4rem;
+	padding: 1.4rem 1.7rem;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1rem;
+	color: $color-dark;
+	text-transform: uppercase;
+	cursor: pointer;
+	&:hover {
+		color: $color-light;
+		background-color: $color-brand_light;
+	}
+}
+
+.service_btn {
+	width: 16.2rem;
+	height: 5rem;
+	padding: 1.2rem 4rem;
+	font-family: "Inika";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 2.6rem;
+	cursor: pointer;
+	&:hover {
+		color: $color-light;
+		background-color: $color-brand_light;
+	}
+}
+
+.contact_btn {
+	width: 16.2rem;
+	height: 5rem;
+	padding: 1.2rem 3rem 1.2rem 3.4rem;
+	font-family: "Inika";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.6rem;
+	cursor: pointer;
+	&:hover {
+		color: $color-light;
+		background-color: $color-brand_light;
+	}
+}

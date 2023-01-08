@@ -1,0 +1,122 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+	// width: 1440px;
+	font-size: 1.6rem;
+	font-family: "Inter", sans-serif;
+}
+
+// header navigation
+.nav {
+	font-family: "Inika";
+	font-style: normal;
+	font-weight: 400;
+	line-height: 36px;
+}
+// masures of h1-h5
+.h1 {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.h2 {
+	font-family: "Inika";
+	font-style: normal;
+	font-weight: 400;
+	line-height: 52px;
+}
+
+.h3 {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.h4 {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	margin: 0;
+}
+
+.h5 {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0;
+}
+
+// font-size
+.f4-5 {
+	font-size: 4.5rem;
+}
+.f4 {
+	font-size: 4rem;
+}
+.f2 {
+	font-size: 2rem;
+}
+.f1-6 {
+	font-size: 1.6rem;
+}
+
+// text in <p>
+.text {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color: $color-text;
+}
+
+// colors
+.bg-green {
+	background: $color-background;
+}
+.green {
+	color: $color-brand_dark;
+}
+.orange {
+	color: $color-brand_light;
+}
+.grey-light {
+	color: $color-heading;
+}
+.grey-medium {
+	color: $color-text;
+}
+.grey-dark {
+	color: $color-links_nav;
+}
+.black {
+	color: $color-dark;
+}
+.white {
+	color: $color-light;
+}
+
+// buttons
+
+.button_unactive {
+	background-color: transparent;
+	border: 0.1rem solid $color-brand_light;
+	border-radius: 1.2rem;
+	color: $color-dark;
+}
+.button_active {
+	background-color: transparent;
+	border: 0.1rem solid $color-brand_light;
+	border-radius: 1.2rem;
+	color: $color-brand_light;
+}
+.hovered {
+	width: 16.2rem;
+	height: 5rem;
+	background-color: $color-brand_light;
+	border: 0.1rem solid $color-brand_light;
+	border-radius: 1.2rem;
+	color: $color-light;
+}

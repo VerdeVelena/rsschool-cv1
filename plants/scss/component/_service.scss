@@ -1,0 +1,50 @@
+// .service {
+// 	background: $color-background;
+// }
+
+// section 3 service
+.service {
+	padding: 4rem 0 12.1rem 0;
+
+	& .service__content {
+		width: 100.7rem;
+		height: 9.4rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 9rem;
+	}
+	.services__btn {
+		display: flex;
+		& .service_btn {
+			margin: 0 1.9rem;
+		}
+	}
+}
+
+.div__service {
+	width: 33rem;
+	height: 45rem;
+	border: 0.1rem solid #e3e1d5;
+	border-radius: 2rem;
+	margin-bottom: 5.5rem;
+
+	& .img__item {
+		margin-bottom: 1rem;
+		& .img_service {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	& .div__info {
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 3.8rem;
+	}
+	& .heading_service {
+		margin-bottom: 1.6rem;
+	}
+}

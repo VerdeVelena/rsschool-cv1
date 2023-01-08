@@ -1,0 +1,38 @@
+// .contacts {
+// 	background: $color-background;
+// }
+// section 5 contacts
+
+.contacts {
+	padding: 5.3rem 0 0 0;
+}
+
+.div_img_gardener {
+	width: 40rem;
+	& .ico_gardener {
+		width: 100%;
+	}
+}
+.div_header_contacts {
+	margin: 0 6.4rem 0 11.3rem;
+}
+.div__contacts {
+	width: 45rem;
+	padding: 9.5rem 0 0 0;
+
+	& .contacts__adresses {
+		background: #d6e7d2;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+}
+
+.contacts__adresses summary {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 40px;
+	color: #717171;
+	padding: 0.5rem 22.6rem 0.5rem 2rem;
+	list-style: none;
+}
