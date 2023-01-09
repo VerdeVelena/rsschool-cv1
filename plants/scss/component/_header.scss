@@ -3,7 +3,7 @@
 // }
 // header
 .header {
-	padding: 4.2rem 0;
+	padding: 3.2rem 0;
 }
 
 .logo {
@@ -19,10 +19,13 @@
 .nav__list {
 	display: flex;
 	list-style: none;
+	padding: 0;
 	& .list {
-		padding: 0 2.3rem;
-
+		padding: 0 2.1rem;
 		cursor: pointer;
+	}
+	& .section {
+		text-decoration: none;
 		&:hover {
 			color: $color-brand_light;
 		}

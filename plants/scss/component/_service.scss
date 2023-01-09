@@ -4,7 +4,7 @@
 
 // section 3 service
 .service {
-	padding: 4rem 0 12.1rem 0;
+	padding: 4.4rem 0 7rem 0;
 
 	& .service__content {
 		width: 100.7rem;
@@ -16,6 +16,9 @@
 	}
 	.services__btn {
 		display: flex;
+		position: relative;
+		top: 4px;
+		left: 20px;
 		& .service_btn {
 			margin: 0 1.9rem;
 		}
@@ -24,13 +27,13 @@
 
 .div__service {
 	width: 33rem;
-	height: 45rem;
+	height: 44.5rem;
 	border: 0.1rem solid #e3e1d5;
 	border-radius: 2rem;
 	margin-bottom: 5.5rem;
 
 	& .img__item {
-		margin-bottom: 1rem;
+		margin-bottom: 0.2rem;
 		& .img_service {
 			width: 100%;
 			height: 100%;

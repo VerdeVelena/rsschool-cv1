@@ -15,6 +15,9 @@
 }
 .div_header_contacts {
 	margin: 0 6.4rem 0 11.3rem;
+	& .heading_contacts {
+		margin-top: 4px;
+	}
 }
 .div__contacts {
 	width: 45rem;

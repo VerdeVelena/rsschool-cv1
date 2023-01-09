@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="media/logo_vector.png" type="image/png" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,11 +27,21 @@
 				</a>
 				<nav class="header__nav">
 					<ul class="nav__list nav f1-6">
-						<li src="#" class="list orange">Home</li>
-						<li src="#" class="list grey-dark">About us</li>
-						<li src="#" class="list grey-dark">Service</li>
-						<li src="#" class="list grey-dark">Price</li>
-						<li src="#" class="list grey-dark">Contacts</li>
+						<li class="list">
+							<a class="section orange" href="#section-1">Home</a>
+						</li>
+						<li class="list">
+							<a class="section grey-dark" href="#section-2">About us</a>
+						</li>
+						<li class="list">
+							<a class="section grey-dark" href="#section-3">Service</a>
+						</li>
+						<li class="list">
+							<a class="section grey-dark" href="#section-4">Price</a>
+						</li>
+						<li class="list">
+							<a class="section grey-dark" href="#section-5">Contacts</a>
+						</li>
 					</ul>
 				</nav>
 			</div>
@@ -38,8 +49,8 @@
 		<!--end of header -->
 
 		<!-- section 1 -->
-		<section class="welcome bg-green">
-			<div class="wrapper welcome__wrapper">
+		<section class="welcome bg-green" id="section-1">
+			<main class="wrapper welcome__wrapper">
 				<div class="welcome__img">
 					<img src="media/leafs.png" alt="lives" class="big-ico_lives" />
 				</div>
@@ -54,11 +65,11 @@
 					</p>
 					<button class="welcome_btn button_unactive">Learn more</button>
 				</div>
-			</div>
+			</main>
 		</section>
 		<!--end of section 1 -->
 		<!-- section 2 -->
-		<section class="about">
+		<section class="about" id="section-2">
 			<div class="wrapper about__wrapper">
 				<div class="about__content">
 					<h2 class="heading__about h2 f4 orange">
@@ -81,7 +92,7 @@
 		</section>
 		<!-- end of section 2 -->
 		<!-- section 3 -->
-		<section class="service bg-green">
+		<section class="service bg-green" id="section-3">
 			<div class="wrapper service__wrapper">
 				<div class="service__content">
 					<h2 class="green h2 f4">Service and our projects</h2>
@@ -163,7 +174,7 @@
 		</section>
 		<!-- end of section 3 -->
 		<!-- section 4 -->
-		<section class="prices">
+		<section class="prices" id="section-4">
 			<div class="wrapper price__wrapper">
 				<div class="div__prices">
 					<h3 class="heading_prices h3 f4">Prices</h3>
@@ -172,14 +183,9 @@
 							<li class="tipe-price f2 h4">
 								<details class="accordion">
 									<summary>
-										Basics <span class="accordion_arrow">></span>
+										Basics <span class="accordion_arrow"></span>
 									</summary>
-									<div>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Neque accusantium fuga tenetur? Vel corrupti incidunt
-										dolores? Reiciendis architecto repellat cum, debitis ipsum
-										temporibus sed numquam, optio enim nobis harum dolor.
-									</div>
+									<div>Lorem ipsum dolor sit amet.</div>
 								</details>
 							</li>
 							<li class="tipe-price f2 h4">
@@ -187,6 +193,7 @@
 									<summary>
 										Standard <span class="accordion_arrow"></span>
 									</summary>
+									<div>Lorem ipsum dolor sit amet.</div>
 								</details>
 							</li>
 							<li class="tipe-price f2 h4">
@@ -194,15 +201,16 @@
 									<summary>
 										Pro care <span class="accordion_arrow"></span>
 									</summary>
+									<div>Lorem ipsum dolor sit amet.</div>
 								</details>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="div__gardeners">
-					<h3 class="heading_gardener h3 f4">
+					<h2 class="heading_gardener h3 f4">
 						Our best <span class="green">gardeners</span> are ready to help you
-					</h3>
+					</h2>
 					<button class="contact_btn button_active">Contact us</button>
 					<img src="media/leafs.png" alt="lives" class="mini-ico_lives" />
 				</div>
@@ -223,12 +231,18 @@
 						<summary>
 							City <span class="contacts_container grey-light"></span>
 						</summary>
+						<div>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+							itaque repudiandae harum aliquam maiores accusantium, maxime rerum
+							aspernatur, nulla vitae, voluptates fugiat voluptatibus error
+							inventore possimus non veniam? Eos, et!
+						</div>
 					</details>
 				</div>
 			</div>
 		</section>
 		<!--end of section 5 -->
-		<footer class="footer">
+		<footer class="footer" id="section-5">
 			<div class="wrapper footer__wrapper">
 				<p class="rolling_github f2">
 					© 2022
@@ -251,7 +265,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://www.facebook.com">
+							<a class="social" href="https://www.facebook.com">
 								<img
 									src="media/social-media/fb.png"
 									alt="#"
@@ -260,7 +274,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://twitter.com">
+							<a class="social" href="https://twitter.com">
 								<img
 									src="media/social-media/tw.png"
 									alt=""
@@ -269,9 +283,9 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://www.pinterest.com">
+							<a class="social" href="https://www.pinterest.com">
 								<img
-									src="media/social-media/pinterest 1.png"
+									src="media/social-media/pinterest.png"
 									alt="#"
 									class="social_media"
 								/>

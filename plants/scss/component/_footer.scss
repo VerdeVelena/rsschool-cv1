@@ -1,33 +1,51 @@
 // footer
 .footer__wrapper {
-	padding: 4rem 0;
+	padding: 2.5rem 0;
 	display: flex;
-	// margin: auto;
+	justify-content: space-between;
 }
 .rolling_github {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
+	position: relative;
+	top: 0;
+	left: 28px;
 	& .a_git {
 		text-decoration: none;
 		color: $color-dark;
+		// &:hover {
+		// 	color: $color-brand_light;
+		// }
 	}
 }
 .rolling {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
+	position: relative;
+	top: 0;
+	left: 34px;
+
 	& .a_rolling {
 		text-decoration: none;
 		color: $color-dark;
+		// &:hover {
+		// 	color: $color-brand_light;
+		// }
 	}
 }
 
 .social-list_link {
 	list-style: none;
+	padding-inline-start: 0;
+	position: relative;
+	top: 3px;
+	left: 18px;
 	& li {
 		margin-right: 2rem;
 	}
+
 	& .social_media {
 		width: 3.2rem;
 	}

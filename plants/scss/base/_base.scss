@@ -1,5 +1,6 @@
 html {
 	font-size: 10px;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -103,13 +104,13 @@ body {
 .button_unactive {
 	background-color: transparent;
 	border: 0.1rem solid $color-brand_light;
-	border-radius: 1.2rem;
+	border-radius: 1.1rem;
 	color: $color-dark;
 }
 .button_active {
 	background-color: transparent;
 	border: 0.1rem solid $color-brand_light;
-	border-radius: 1.2rem;
+	border-radius: 1.1rem;
 	color: $color-brand_light;
 }
 .hovered {
@@ -117,6 +118,6 @@ body {
 	height: 5rem;
 	background-color: $color-brand_light;
 	border: 0.1rem solid $color-brand_light;
-	border-radius: 1.2rem;
+	border-radius: 1.1rem;
 	color: $color-light;
 }

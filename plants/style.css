@@ -1,11 +1,12 @@
 html {
-	font-size: 10px;
+  font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-size: 1.6rem;
-	font-family: "Inter", sans-serif;
-	margin: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
 }
 
 .nav {
@@ -104,6 +105,28 @@ body {
 }
 
 .button_unactive {
+<<<<<<< HEAD
+  background-color: transparent;
+  border: 0.1rem solid #e06733;
+  border-radius: 1.1rem;
+  color: #000000;
+}
+
+.button_active {
+  background-color: transparent;
+  border: 0.1rem solid #e06733;
+  border-radius: 1.1rem;
+  color: #e06733;
+}
+
+.hovered {
+  width: 16.2rem;
+  height: 5rem;
+  background-color: #e06733;
+  border: 0.1rem solid #e06733;
+  border-radius: 1.1rem;
+  color: #ffffff;
+=======
 	background-color: transparent;
 	border: 0.1rem solid #e06733;
 	border-radius: 1.2rem;
@@ -124,6 +147,7 @@ body {
 	border: 0.1rem solid #e06733;
 	border-radius: 1.2rem;
 	color: #ffffff;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 
 .welcome_btn {
@@ -244,7 +268,11 @@ body {
 }
 
 .header {
+<<<<<<< HEAD
+  padding: 3.2rem 0;
+=======
 	padding: 4.2rem 0;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 
 .logo {
@@ -259,6 +287,21 @@ body {
 }
 
 .nav__list {
+<<<<<<< HEAD
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.nav__list .list {
+  padding: 0 2.1rem;
+  cursor: pointer;
+}
+.nav__list .section {
+  text-decoration: none;
+}
+.nav__list .section:hover {
+  color: #e06733;
+=======
 	display: flex;
 	list-style: none;
 }
@@ -268,6 +311,7 @@ body {
 }
 .nav__list .list:hover {
 	color: #e06733;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 
 .welcome {
@@ -293,7 +337,11 @@ body {
 }
 
 .service {
+<<<<<<< HEAD
+  padding: 4.4rem 0 7rem 0;
+=======
 	padding: 4rem 0 12.1rem 0;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 .service .service__content {
 	width: 100.7rem;
@@ -304,13 +352,30 @@ body {
 	margin-bottom: 9rem;
 }
 .service .services__btn {
+<<<<<<< HEAD
+  display: flex;
+  position: relative;
+  top: 4px;
+  left: 20px;
+=======
 	display: flex;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 .service .services__btn .service_btn {
 	margin: 0 1.9rem;
 }
 
 .div__service {
+<<<<<<< HEAD
+  width: 33rem;
+  height: 44.5rem;
+  border: 0.1rem solid #e3e1d5;
+  border-radius: 2rem;
+  margin-bottom: 5.5rem;
+}
+.div__service .img__item {
+  margin-bottom: 0.2rem;
+=======
 	width: 33rem;
 	height: 45rem;
 	border: 0.1rem solid #e3e1d5;
@@ -319,6 +384,7 @@ body {
 }
 .div__service .img__item {
 	margin-bottom: 1rem;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 .div__service .img__item .img_service {
 	width: 100%;
@@ -350,6 +416,9 @@ body {
 .div_header_contacts {
 	margin: 0 6.4rem 0 11.3rem;
 }
+.div_header_contacts .heading_contacts {
+  margin-top: 4px;
+}
 
 .div__contacts {
 	width: 45rem;
@@ -372,7 +441,12 @@ body {
 }
 
 .about {
+<<<<<<< HEAD
+  padding: 13rem 0 0 0;
+  margin-bottom: 35px;
+=======
 	padding: 9.3rem 0 9.4rem 0;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 
 .about__content {
@@ -383,11 +457,21 @@ body {
 	margin-bottom: 4rem;
 }
 .about__content .text__about {
+<<<<<<< HEAD
+  margin-bottom: 11.5rem;
+}
+
+.about__img {
+  width: 46.4rem;
+  position: relative;
+  bottom: 33px;
+=======
 	margin-bottom: 15.5rem;
 }
 
 .about__img {
 	width: 46.4rem;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 
 .price__wrapper {
@@ -408,9 +492,15 @@ body {
 	border-radius: 2rem;
 }
 .prices-accourdion .ul_accordion {
+<<<<<<< HEAD
+  margin: 0 auto;
+  padding: 2.4rem 0 0.2rem 0;
+  width: calc(100% - 8.2rem);
+=======
 	margin: 0 auto;
 	padding: 3.4rem 0 0.2rem 0;
 	width: calc(100% - 8.2rem);
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 .prices-accourdion .tipe-price {
 	list-style: none;
@@ -443,6 +533,25 @@ body {
 	margin-bottom: 3.9rem;
 }
 .div__gardeners .mini-ico_lives {
+<<<<<<< HEAD
+  width: 17.5rem;
+  margin-left: auto;
+}
+
+.footer__wrapper {
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rolling_github {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  top: 0;
+  left: 28px;
+=======
 	width: 15.2rem;
 	margin-left: auto;
 }
@@ -456,6 +565,7 @@ body {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 .rolling_github .a_git {
 	text-decoration: none;
@@ -463,9 +573,18 @@ body {
 }
 
 .rolling {
+<<<<<<< HEAD
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  top: 0;
+  left: 34px;
+=======
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 .rolling .a_rolling {
 	text-decoration: none;
@@ -473,7 +592,15 @@ body {
 }
 
 .social-list_link {
+<<<<<<< HEAD
+  list-style: none;
+  padding-inline-start: 0;
+  position: relative;
+  top: 3px;
+  left: 18px;
+=======
 	list-style: none;
+>>>>>>> c5a9c13f2cb3e4eb13b267f728e67687b9656413
 }
 .social-list_link li {
 	margin-right: 2rem;
