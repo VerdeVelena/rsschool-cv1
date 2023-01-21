@@ -1,0 +1,228 @@
+// section 3 service
+
+// media
+@media (max-width: 1440px) and (min-width: 1041px) {
+	.service {
+		padding: 4.4rem 0 7rem 0;
+
+		& .service__content {
+			width: 82%;
+			height: 9.4rem;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 9rem;
+		}
+		.services__btn {
+			display: flex;
+			position: relative;
+			top: 4px;
+			left: 20px;
+			& .service_btn {
+				margin: 0 1.9rem;
+			}
+		}
+	}
+
+	.div__service {
+		width: 33rem;
+		height: 44.5rem;
+		border: 0.1rem solid #e3e1d5;
+		border-radius: 2rem;
+		margin-bottom: 5.5rem;
+
+		& .img__item {
+			margin-bottom: 0.2rem;
+			& .img_service {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		& .div__info {
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 3.8rem;
+		}
+		& .heading_service {
+			margin-bottom: 1.6rem;
+		}
+	}
+}
+
+@media (max-width: 1040px) {
+	.service__content {
+		width: 55%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+		& .heading__service {
+			font-size: 3.5rem;
+			margin-bottom: 5rem;
+		}
+	}
+	.service__item {
+		justify-content: space-evenly;
+		margin-top: 10rem;
+	}
+}
+
+@media (max-width: $tablet-width) and (min-width: 675px) {
+	.service {
+		padding: 6rem 0 3.5rem 0;
+		& .service__content {
+			width: 40rem;
+			display: flex;
+			align-items: start;
+			flex-direction: column;
+			justify-content: flex-start;
+			margin: 0;
+		}
+		& .services__btn {
+			display: flex;
+			& .service_btn {
+				margin-right: 3.5rem;
+				margin-left: 0;
+			}
+		}
+		& .service__item {
+			justify-content: space-evenly;
+			margin-top: 4rem;
+		}
+	}
+	.heading__service {
+		width: 36rem;
+		font-size: 3.5rem;
+		line-height: 47px;
+		margin: 0;
+		margin-bottom: 4rem;
+	}
+	.div__service {
+		width: 28.1rem;
+		height: 45rem;
+		border: 0.1rem solid #e3e1d5;
+		border-radius: 2rem;
+		margin-bottom: 3.5rem;
+		& .img__item {
+			width: 28.2rem;
+			height: 35rem;
+			margin-bottom: 1rem;
+			& .img_service {
+				width: 100%;
+				height: 100%;
+				object-fit: fill;
+			}
+		}
+		& .div__info {
+			width: 20.1rem;
+			height: 7rem;
+			margin: 0 auto;
+		}
+		& .text_service {
+			text-align: center;
+		}
+	}
+}
+
+@media (max-width: 675px) and (min-width: 381px) {
+	.service__content {
+		width: 25rem;
+		display: flex;
+		margin: 0;
+
+		& .heading__service {
+			font-size: 2.5rem;
+			line-height: 3.3rem;
+		}
+		& .services__btn {
+			width: 25.5rem;
+			display: flex;
+			flex-wrap: wrap;
+			& .service_btn {
+				margin-right: auto;
+				margin-bottom: 3rem;
+			}
+		}
+	}
+	.service__item {
+		margin-top: 4rem;
+		& .div__service {
+			width: 28rem;
+			height: 45rem;
+			border: 0.1rem solid #e3e1d5;
+			border-radius: 2rem;
+			margin-bottom: 3.5rem;
+			& .img__item {
+				width: 27.9rem;
+				height: 35rem;
+				& .img_service {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: $mobile-big-width) and (min-width: $mobile-small-width) {
+	.service__content {
+		width: 25rem;
+		display: flex;
+		margin: 0;
+		& .heading__service {
+			font-size: 2.5rem;
+			line-height: 3.3rem;
+			margin: 3rem 0 3.5rem 0;
+		}
+		& .services__btn {
+			width: 25.5rem;
+			display: flex;
+			flex-wrap: wrap;
+			@media (max-width: $mobile-small-width) {
+				margin-bottom: 2rem;
+			}
+			& .service_btn {
+				margin-right: 0.6rem;
+				margin-bottom: 1rem;
+				@media (max-width: $mobile-small-width) {
+					margin-right: 0.6rem;
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+	.service__item {
+		margin-top: 3rem;
+		@media (max-width: $mobile-small-width) {
+			margin-top: 0;
+		}
+		& .div__service {
+			width: 28rem;
+			height: 45rem;
+			border: 0.1rem solid #e3e1d5;
+			border-radius: 2rem;
+			margin-bottom: 3.5rem;
+			& .img__item {
+				width: 27.9rem;
+				height: 35rem;
+				margin-bottom: 1rem;
+				& .img_service {
+					width: 100%;
+					height: 100%;
+				}
+			}
+			& .heading_service {
+				text-align: center;
+				margin-bottom: 1rem;
+			}
+			& .text_service {
+				width: 20.1rem;
+				margin: 0 auto;
+				text-align: center;
+			}
+		}
+	}
+}

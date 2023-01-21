@@ -1,0 +1,51 @@
+// .header {
+// 	background: $color-background;
+// }
+// header
+.header {
+	padding: 3.2rem 0;
+}
+
+.logo {
+	text-decoration: none;
+	& .icon_logo {
+		width: 2rem;
+		height: 2rem;
+	}
+	& .icon_text-logo {
+		height: 1.7rem;
+	}
+}
+.nav__list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	& .list {
+		padding: 0 2.1rem;
+		cursor: pointer;
+	}
+	& .section {
+		text-decoration: none;
+		&:hover {
+			color: $color-brand_light;
+		}
+	}
+}
+
+@media (max-width: $tablet-width) and (min-width: 675px) {
+	.logo {
+		width: 7.7rem;
+		& .icon_text-logo {
+			height: 1.2rem;
+		}
+	}
+
+	.nav__list {
+		line-height: 50px;
+		margin: 18px 0;
+	}
+}
+@media (max-width: 675px) and (min-width: 381px) {
+}
+@media (max-width: $mobile-big-width) and (min-width: $mobile-small-width) {
+}

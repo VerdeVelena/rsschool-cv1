@@ -1,0 +1,20 @@
+@import "abstracts/constants";
+// bases
+@import "base/base";
+@import "base/buttons";
+
+// layouts
+@import "layouts/layout1440";
+@import "layouts/layout768px";
+@import "layouts/layout380px";
+@import "layouts/layout320px";
+
+// components
+@import "component/header";
+@import "component/welcome";
+@import "component/service";
+@import "component/contacts";
+@import "component/about";
+@import "component/prices";
+@import "component/footer";
+@import "component/_burger-menu";

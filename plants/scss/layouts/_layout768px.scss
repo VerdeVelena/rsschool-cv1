@@ -1,0 +1,82 @@
+@media (max-width: $tablet-width) and (min-width: 675px) {
+	.wrapper {
+		max-width: $content_tablet-width;
+		margin: auto;
+	}
+
+	// header
+
+	.header__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// section 1 welcome
+
+	.welcome__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// section 2 about
+
+	.about__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	// section 3 service
+
+	.service__wrapper {
+		display: flex;
+		flex-direction: wrap;
+	}
+
+	.service__item {
+		display: flex;
+		justify-content: space-between;
+		flex-flow: wrap;
+	}
+
+	// section 4 prices
+
+	.price__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	.div__prices {
+		display: flex;
+		flex-direction: column;
+		& .prices-accourdion {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.div__gardeners {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	//  section 5 contacts
+	.contacts__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	// footer
+	.footer__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		& .social-list_link {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+}

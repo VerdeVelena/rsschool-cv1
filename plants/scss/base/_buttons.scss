@@ -1,0 +1,73 @@
+.welcome_btn {
+	width: 15.8rem;
+	height: 4.4rem;
+	padding: 1.4rem 1.7rem;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1rem;
+	color: $color-dark;
+	text-transform: uppercase;
+	cursor: pointer;
+	&:hover {
+		color: $color-light;
+		background-color: $color-brand_light;
+	}
+}
+
+.service_btn {
+	width: 16.2rem;
+	height: 5rem;
+	padding: 1.2rem 4rem;
+	font-family: "Inika";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 2.6rem;
+	cursor: pointer;
+	&:hover {
+		color: $color-light;
+		background-color: $color-brand_light;
+	}
+}
+
+.contact_btn {
+	width: 16.2rem;
+	height: 5rem;
+	padding: 1.2rem 3rem 1.2rem 3.4rem;
+	font-family: "Inika";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.6rem;
+	cursor: pointer;
+	&:hover {
+		color: $color-light;
+		background-color: $color-brand_light;
+	}
+}
+
+@media (max-width: 675px) and (min-width: $mobile-small-width) {
+	.welcome_btn {
+		width: 10rem;
+		height: 3.4rem;
+		padding: 0.8rem;
+		font-size: 1rem;
+		line-height: 2rem;
+	}
+	.service_btn {
+		width: 12.1rem;
+		height: 3.5rem;
+		padding: 0.8rem 2.8rem;
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+	.contact_btn {
+		width: 12.1rem;
+		height: 3.5rem;
+		padding: 0.8rem 2.2rem;
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+}
