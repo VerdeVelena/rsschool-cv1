@@ -53,3 +53,126 @@
 		margin-left: auto;
 	}
 }
+
+// media
+
+@media (max-width: 1040px) {
+	.price__wrapper {
+		justify-content: space-evenly;
+	}
+	.heading_prices,
+	.heading_gardener {
+		font-size: 3.5rem;
+	}
+}
+
+@media (max-width: $tablet-width) and (min-width: 675px) {
+	.price__wrapper {
+		padding: 4rem 0 8rem 0;
+	}
+
+	.heading_prices {
+		font-size: 35px;
+		line-height: 42px;
+		margin-top: 0;
+		margin-bottom: 5rem;
+		margin-left: 1.5rem;
+	}
+	.div__gardeners {
+		width: 33.2rem;
+		& .heading_gardener {
+			font-size: 25px;
+			line-height: 35px;
+			margin-top: 10rem;
+			margin-bottom: 2.8rem;
+		}
+		& .contact_btn {
+			margin-bottom: 3.4rem;
+		}
+		& .mini-ico_lives {
+			width: 16rem;
+			margin-left: 179px;
+		}
+	}
+}
+
+@media (max-width: 675px) and (min-width: 381px) {
+	.price__wrapper {
+		display: flex;
+		flex-direction: column;
+		padding: 2.5rem 0 4rem 0;
+
+		& .heading_prices {
+			position: relative;
+			margin: 0 auto;
+			margin-bottom: 3.5rem;
+		}
+		& .prices-accourdion {
+			width: 32rem;
+			margin-bottom: 1.9rem;
+		}
+		& .div__gardeners {
+			width: 23rem;
+			margin: 0 auto;
+			& .heading_gardener {
+				font-size: 2rem;
+				line-height: 3.5rem;
+				text-align: center;
+				position: relative;
+				margin: 0 auto;
+				margin-bottom: 1.4rem;
+			}
+			& .contact_btn {
+				position: relative;
+				margin: 0 auto;
+			}
+			& .mini-ico_lives {
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: $mobile-big-width) and (min-width: $mobile-small-width) {
+	.price__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 0;
+		margin-bottom: 4rem;
+	}
+	.div__prices {
+		margin-bottom: 2rem;
+		& .heading_prices {
+			margin: 2.5rem 0 4rem 0;
+		}
+	}
+	.prices-accourdion {
+		width: 22.4rem;
+		margin: 0 auto;
+		& .tipe-price {
+			font-size: 1.5rem;
+		}
+	}
+	.div__gardeners {
+		width: 23rem;
+		margin: 0 auto;
+		& .heading_gardener {
+			font-size: 2rem;
+			line-height: 3.5rem;
+			text-align: center;
+			position: relative;
+			margin: 0 auto;
+			margin-bottom: 1.4rem;
+		}
+		& .contact_btn {
+			position: relative;
+			margin: 0 auto;
+		}
+		& .mini-ico_lives {
+			display: none;
+		}
+	}
+}

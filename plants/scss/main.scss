@@ -5,6 +5,9 @@
 
 // layouts
 @import "layouts/layout1440";
+@import "layouts/layout768px";
+@import "layouts/layout380px";
+@import "layouts/layout320px";
 
 // components
 @import "component/header";
@@ -14,3 +17,4 @@
 @import "component/about";
 @import "component/prices";
 @import "component/footer";
+@import "component/_burger-menu";

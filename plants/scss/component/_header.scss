@@ -31,3 +31,21 @@
 		}
 	}
 }
+
+@media (max-width: $tablet-width) and (min-width: 675px) {
+	.logo {
+		width: 7.7rem;
+		& .icon_text-logo {
+			height: 1.2rem;
+		}
+	}
+
+	.nav__list {
+		line-height: 50px;
+		margin: 18px 0;
+	}
+}
+@media (max-width: 675px) and (min-width: 381px) {
+}
+@media (max-width: $mobile-big-width) and (min-width: $mobile-small-width) {
+}

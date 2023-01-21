@@ -1,0 +1,13 @@
+@media (max-width: 675px) and (min-width: 381px) {
+	.wrapper {
+		max-width: 350px;
+		margin: auto;
+	}
+}
+
+@media (max-width: $mobile-big-width) {
+	.wrapper {
+		max-width: 330px;
+		margin: auto;
+	}
+}

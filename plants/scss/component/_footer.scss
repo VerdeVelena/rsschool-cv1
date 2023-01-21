@@ -44,9 +44,99 @@
 	left: 18px;
 	& li {
 		margin-right: 2rem;
+		&:last-child {
+			margin-right: 0;
+		}
 	}
 
 	& .social_media {
 		width: 3.2rem;
+		fill: $color-brand_light;
+		// &:hover {
+		// 	color: $color-brand_light;
+		// }
+	}
+}
+
+@media (max-width: 1260px) {
+	.social-list_link {
+		position: relative;
+		top: 3px;
+		left: 0px;
+	}
+}
+
+@media (max-width: $tablet-width) and (min-width: 675px) {
+	.footer__wrapper {
+		padding: 3rem 0 1.8rem 0;
+		margin: 0 auto;
+		& .rolling_github {
+			margin: 0 auto;
+			left: 0;
+			margin-bottom: 1.6rem;
+		}
+		& .rolling {
+			margin: 0 auto;
+			left: 0;
+			margin-bottom: 1.6rem;
+		}
+		& .social-list {
+			margin: 0 auto;
+			left: 0;
+			& .social-list_link {
+				display: flex;
+				align-items: baseline;
+				justify-content: center;
+				left: 0;
+				margin-top: 0;
+				margin-bottom: 1.8rem;
+			}
+			.social-list_link {
+				top: 3px;
+				left: 0;
+				& li {
+					margin-right: 1rem;
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 675px) and (min-width: 380px) {
+	.footer__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		& .rolling_github {
+			position: relative;
+			margin: 0px;
+			left: 0;
+		}
+		& .rolling {
+			position: relative;
+			left: 0;
+		}
+		& .social-list_link {
+			position: relative;
+			top: 0;
+		}
+	}
+}
+
+@media (max-width: $mobile-big-width) and (min-width: $mobile-small-width) {
+	.footer__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-self: start;
+		& .rolling_github,
+		& .rolling {
+			font-size: 1.5rem;
+			position: relative;
+			top: 0;
+			left: 0;
+		}
 	}
 }

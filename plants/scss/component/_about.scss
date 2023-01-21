@@ -1,21 +1,133 @@
-// section 2 about
-.about {
-	padding: 13rem 0 0 0;
-	margin-bottom: 35px;
-}
-.about__content {
-	width: 60.5rem;
+@media (max-width: 1440px) and (min-width: 1041px) {
+	.about {
+		padding: 13rem 0 0 0;
+		margin-bottom: 35px;
+	}
+	.about__content {
+		width: 60.5rem;
 
-	& .heading__about {
-		letter-spacing: 0.1rem;
-		margin-bottom: 4rem;
+		& .heading__about {
+			letter-spacing: 0.1rem;
+			margin-bottom: 4rem;
+		}
+		& .text__about {
+			margin-bottom: 11.5rem;
+		}
 	}
-	& .text__about {
-		margin-bottom: 11.5rem;
+	.about__img {
+		width: 46.4rem;
+		position: relative;
+		bottom: 33px;
+		& .about__img-monstera {
+			width: 100%;
+		}
 	}
 }
-.about__img {
-	width: 46.4rem;
-	position: relative;
-	bottom: 33px;
+// section 2 about
+
+// media
+
+@media (max-width: 1040px) {
+	.about {
+		padding: 6rem 0 0 0;
+	}
+	.about__wrapper {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.heading__about {
+		text-align: center;
+	}
+	.text__about {
+		text-align: justify;
+	}
+}
+
+@media (max-width: $tablet-width) and (min-width: 674px) {
+	.about {
+		padding: 4rem 0 0 0;
+	}
+	.about__content {
+		width: 66.8rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 4rem;
+		& .heading__about {
+			width: 42.3rem;
+			letter-spacing: 0;
+			text-align: center;
+			font-size: 3.5rem;
+			line-height: 4.6rem;
+			margin-top: 0;
+			margin-bottom: 5rem;
+		}
+		& .text__about {
+			width: 66.8rem;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+	.about__img {
+		width: 25rem;
+		margin-bottom: 8.5rem;
+		position: relative;
+		top: 3rem;
+		left: 1.5rem;
+		& .about__img-monstera {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 675px) and (min-width: 381px) {
+	.about__content {
+		width: 33rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 0;
+		& .heading__about {
+			width: 33rem;
+			font-size: 25px;
+			line-height: 33px;
+			text-align: center;
+			margin-bottom: 2.1rem;
+		}
+		& .text__about {
+			width: 33rem;
+			text-align: justify;
+			font-size: 15px;
+			line-height: 25px;
+		}
+	}
+	.about__img {
+		width: 15rem;
+		& .about__img-monstera {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: $mobile-big-width) and (min-width: $mobile-small-width) {
+	.heading__about {
+		font-size: 25px;
+		line-height: 33px;
+		text-align: center;
+		margin-top: 0;
+	}
+	.text__about {
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.about__img {
+		width: 15rem;
+		margin-bottom: 2rem;
+		& .about__img-monstera {
+			width: 100%;
+		}
+	}
 }
